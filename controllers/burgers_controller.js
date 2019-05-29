@@ -14,7 +14,7 @@ router.get('/', function(req,res){
     });
 });
 
-router.post('/burgers', function(req, res){
+router.post('/meals', function(req, res){
     meals.insertOne([
         'meal_name'
     ], [
@@ -24,7 +24,7 @@ router.post('/burgers', function(req, res){
     });
 });
 
-router.put('/burgers/:id', function(req,res){
+router.put('/meals/:id', function(req,res){
     var condition = 'id = ' + req.params.id;
     meals.updateOne({
         devoured: true
