@@ -1,7 +1,7 @@
 var orm = require('../config/orm.js');
 
 //create meal
-var meal = {
+var meals = {
     //select all meal entries
     selectAll: function(cb) {
         orm.selectAll('meals',function(res){
@@ -24,4 +24,4 @@ var meal = {
 
 //export th database functios for the burgercontroller.js
 
-module.exports = burger;
+module.exports = meals;
