@@ -1,9 +1,10 @@
-<h1>Eat Your Meal!</h1>
+
 
 <main>
+    <h1>Enjoy Your Meal!</h1>
     <div class="container">
         <div class="row">
-            <div class="col s6">
+            <div class="col s6" >
                 {{#each meals}}
                 {{#unless this.devoured}}
                 <div>
@@ -27,15 +28,24 @@
             </div>
         </div>
     </div>
-</main>
 
-<h2>Add A Meal!</h2>
+
+<h2>Are You Craving Something Else? Add A Meal!</h2>
 
 <div class="row">
-    <div class="col s12">
+    <div class="col s12" id="mealForm">
         <form action="/meals" method="POST">
         <input type="text" id="meal" name="meal_name" placeholder="What Would You Like to Eat?">
         <button type="submit" class="addMealButton">Add Your Meal!</button>
         </form>
     </div>
 </div>
+<footer class="mealFooter">
+    <div class="footer-copyright">
+        <div class="container">
+            <span class="grey-text text-lighten-4">© 2019 Gabriella Tannous</span>
+            <a class="grey-text text-lighten-4 right" href="https://github.com/gtannous16">Git-Hub Repo</a>
+        </div>
+    </div>
+</footer>
+</main>

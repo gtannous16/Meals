@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(254, 221, 166);
+    font-family: 'Gabriela', serif;
+    color: rgb(254, 247, 227);
+    border: solid rgb(85, 26, 4);
+}
+
+main,footer{
+    background-color: rgb(255, 53, 91);
+}
+main{
+    border-top: solid rgb(85, 26, 4);
+}
+img{
+   display: block;
+   margin: auto;
+}
+
+h1{
+    text-align: center;
+   
+}
+h2 {
+    background-color: rgb(117,81,168);
+    border-top: solid rgb(85, 26, 4);
+    text-align: center;
+    font-family: 'Gabriela', serif;
+    font-size: 40px;
+    padding: 20px;
+    margin-bottom: 0px;
+  
+}
+.addMealButton{
+    color: rgb(253, 232, 66);
+    background-color:  rgb(91, 179, 28);
+    border: solid rgb(91, 179, 28);
+}
+.mealAvailable{
+    color: rgb(253, 232, 66);
+    background-color:  rgb(91, 179, 28);
+    border: solid rgb(91, 179, 28);
+}
+.mealAvailable:hover{
+    background-color: rgb(253, 232, 66);
+}
+.mealAvailable {
+    font-family: 'Gabriela', serif;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25px;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    background-color:rgb(254, 221, 166);
+    color:rgb(91, 179, 28);
+    border: solid rgb(85, 26, 4);
+}
+
+.mealEaten {
+    font-family: 'Gabriela', serif;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(254, 221, 166);
+    color: rgb(91, 179, 28);
+    border: solid rgb(85, 26, 4);
+}
+
+.mealFooter {
+    padding: 20px;
+    margin-right: 40px;
+    padding-bottom: 20px;
+}
+.addMealButton:hover {
+    background-color: rgb(253, 232, 66);
+}
+.addMealButton {
+    font-family: 'Gabriela', serif;
+ 	font-weight: normal;
+ 	font-size: 20px;
+ 	text-align: center;
+ 	border-radius: 25px;
+ 	width: 100%;
+ 	margin: 0;
+ 	padding: 10px;
+    background-color: rgb(254, 221, 166);
+    color: rgb(254,113,0);
+    border: solid rgb(255,172,82);
+}
+#meal::placeholder{
+    color: rgb(254,113,0);
+}
+#meal {
+    background-color: rgb(254, 221, 166);
+    border: solid rgb(255,172,82);
+    color:rgb(255, 53, 91);
+    text-align: center;
+}
+#mealForm {
+    background-color: rgb(117,81,168);
+    padding: 20px;
+    padding-bottom: 30px;
+ 
+
+}
