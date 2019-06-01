@@ -4,6 +4,9 @@ body{
     color: rgb(254, 247, 227);
     border: solid rgb(85, 26, 4);
 }
+a:hover{
+    background-color:rgb(66,135,252);
+}
 p{
     font-family: 'Gabriela', serif;
     font-size: 20px;
