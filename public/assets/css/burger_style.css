@@ -4,7 +4,12 @@ body{
     color: rgb(254, 247, 227);
     border: solid rgb(85, 26, 4);
 }
-
+p{
+    font-family: 'Gabriela', serif;
+    font-size: 20px;
+    color:rgb(253, 232, 66);
+    text-align: center;
+}
 main,footer{
     background-color: rgb(255, 53, 91);
 }

@@ -5,6 +5,7 @@
     <div class="container">
         <div class="row">
             <div class="col s6" >
+                <p>Meals Waiting to be Devoured!</p>
                 {{#each meals}}
                 {{#unless this.devoured}}
                 <div>
@@ -16,10 +17,13 @@
                 {{/each}}
             </div>
             <div class="col s6">
+                <p>Meals Devoured!</p> 
                 {{#each meals}}
                 {{#if this.devoured}}
                 <div class="mealEaten">
+                    
                     <div>
+                       
                         {{this.meal_name}}
                     </div>
                 </div>
